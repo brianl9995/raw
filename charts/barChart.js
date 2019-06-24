@@ -28,7 +28,7 @@
 
 
     // Colors dimension. It will define the color of the bars
-    var colorsDimesion = model.dimension()
+    var colorsDimension = model.dimension()
         .title('Colors')
         .types(String)
 
@@ -51,7 +51,7 @@
                     }),
                     category: categories(v[0]),
                     group: groups(v[0]),
-                    color: colorsDimesion(v[0])
+                    color: colorsDimension(v[0])
                 }
             })
             .entries(data)
